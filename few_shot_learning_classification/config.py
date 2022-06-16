@@ -1,0 +1,6 @@
+class Config:
+    BART_INFERENCE_BS = 64
+    MAX_LENGTH = 150
+    FINE_TUNE_EPOCHS = 2
+    FINE_TUNE_BS = 16
+    FINE_TUNE_LR = 1e-5
